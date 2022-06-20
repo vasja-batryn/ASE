@@ -2,6 +2,11 @@ import dartSass from 'sass'; // preprocessor
 import gulpSass from 'gulp-sass'; // for compiling sass
 import rename from 'gulp-rename'; // for renaming files min.css
 
+import cleanCss from 'gulp-clean-css'; // Сжатие CSS файла
+import webpcss from 'gulp-webpcss'; // Вывод WEBP изображений
+import autoprefixer from 'gulp-autoprefixer'; // Добавление вендорных префиксов
+import groupCssMediaQueries from 'gulp-group-css-media-queries'; // Групировка медиа запросов
+
 const sass = gulpSass(dartSass);
 
 export const scss = () => {
@@ -15,6 +20,19 @@ export const scss = () => {
     .pipe(sass({
         outputStyle: 'expanded'
     }))
+    .pipe(groupCssMediaQueries())
+    .pipe(webpcss({
+        webpClass: ".webp",
+		noWebpClass: ".no-webp"
+    }))
+    .pipe(autoprefixer({
+        grid: true,
+		overrideBrowserslist: ["last 3 versions"],
+		cascade: true
+    }))
+    // Раскомментировать если нужен не сжатый дубль файла стилей
+	.pipe(app.gulp.dest(app.path.build.css))
+    .pipe(cleanCss())
     .pipe(rename({
         extname: ".min.css"
     }))
