@@ -27,5 +27,6 @@ export const html = () => {
 			'file': 'gulp/version.json'
 		}
     }))
-    .pipe(app.gulp.dest(app.path.build.html));
+    .pipe(app.gulp.dest(app.path.build.html))
+    .pipe(app.plugins.browsersync.stream());
 };
