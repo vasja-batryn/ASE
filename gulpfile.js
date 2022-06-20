@@ -2,12 +2,15 @@
 import gulp from 'gulp';
 // import path constants from path.js
 import { path } from './gulp/config/path.js';
-import { html } from "./gulp/tasks/html.js";
+import { html } from './gulp/tasks/html.js';
+// Импорт общих плагинов
+import { plugins } from './gulp/config/plugins.js';
 
 // global variable
 global.app = {
   path: path,
   gulp: gulp,
+  plugins: plugins,
 };
 
 import { copy } from './gulp/tasks/copy.js';
