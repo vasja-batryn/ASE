@@ -2,6 +2,7 @@
 import gulp from 'gulp';
 // import path constants from path.js
 import { path } from './gulp/config/path.js';
+import { html } from "./gulp/tasks/html.js";
 
 // global variable
 global.app = {
@@ -15,9 +16,13 @@ import { reset } from './gulp/tasks/reset.js';
 // Наблюдатель за изменениями в файлах
 function watcher() {
   gulp.watch(path.watch.files, copy);
+  gulp.watch(path.watch.html, html);
 }
 
+// Основные задачи
+const mainTasks = gulp.parallel(copy, html);
+
 // Построение сценариев выполнения задач
-const dev = gulp.series(reset, copy, watcher);
+const dev = gulp.series(reset, mainTasks, watcher);
 
 gulp.task('default', dev);
