@@ -1,0 +1,17 @@
+@import "params";
+@import "typography";
+
+.navbar{
+    min-height: 6.25rem;
+    background: transparent;
+    .nav-link{
+        color: $color-white;
+        font-size: $font-size-base;
+        font-weight: $font-weight-light;
+        &:hover{
+            color: $color-primary-base;
+            border-bottom: 1px solid  $color-primary-base ;
+        }
+    }
+}
+

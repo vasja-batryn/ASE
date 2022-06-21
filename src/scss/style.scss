@@ -1,2 +1,12 @@
 @import "params";
 @import "typography";
+@import "navbar";
+
+body{
+    background-color: $color-primary-dark;
+}
+.container{
+    margin: 0 150px 0 150px;
+    padding: 0px;
+}
+
