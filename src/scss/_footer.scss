@@ -1,0 +1,9 @@
+@import "params";
+@import "typography";
+
+.footer{
+    min-height: 19.813rem;
+    width: 100%;
+    background: $color-primary-base;
+    color: $color-white;
+}

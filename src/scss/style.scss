@@ -1,12 +1,15 @@
 @import "params";
 @import "typography";
 @import "navbar";
+@import "footer";
 
 body{
     background-color: $color-primary-dark;
 }
 .container{
-    margin: 0 150px 0 150px;
+    height: 100%;
+    max-width: 1140px;
+    margin: 0 9.375rem 0 9.375rem;
     padding: 0px;
 }
 
