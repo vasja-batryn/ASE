@@ -236,15 +236,25 @@ p {
   color: #ffffff;
 }
 
+.footer .line {
+  width: 2px;
+  height: 186px;
+  margin: 0px 133px 0px 133px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
 body {
   background-color: #525355;
 }
 
-.container {
-  height: 100%;
-  max-width: 1140px;
-  margin: 0 9.375rem 0 9.375rem;
-  padding: 0px;
+.no-webp .ho{
+  background-image: url("../img/bg.png"); }
+
+.ho {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
 
 @media (min-width: 768px) {
@@ -430,3 +440,5 @@ body {
     font-size: 1.375rem;
   }
 }
+
+.webp .ho{ background-image: url(../img/bg.webp); }
