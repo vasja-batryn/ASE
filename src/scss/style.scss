@@ -1,43 +1,50 @@
-@import "params";
-@import "typography";
-@import "navbar";
-@import "footer";
+@import 'params';
+@import 'mixins';
+@import 'typography';
+@import 'navbar';
+@import 'footer';
 
-body{
-    background-color: $color-primary-dark;
+body {
+  background-color: $color-primary-dark;
 }
 
-.container{
-    max-width: 1140px;
+.container {
+  max-width: 1140px;
 }
 
-header{
-    background-image: url("@img/home_bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;  
-    background-attachment: fixed;
-    
+header {
+  background-image: url('@img/home_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
 }
 
-.home_title{
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  
+.home_title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
-  }
-  
-  .home{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 96px;
-    line-height: 112px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-  }
+.home {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 96px;
+  line-height: 112px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.img {
+  // width: 100%;
+  min-height: 23.75rem;
+  margin-top: 100px;
+  background-color: black;
+  background: url("@img/terms_bg.jpg");
+  @include background-pic;
+}

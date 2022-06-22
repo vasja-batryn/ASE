@@ -82,8 +82,23 @@ p {
   font-weight: 600;
 }
 
+.title__alt {
+  max-width: 560px;
+  padding: 1.563rem 1.125rem;
+  text-align: center;
+  border: 2px solid #ffffff;
+}
+
 .base-font {
   font-size: 0.938rem;
+}
+
+.base-font__neutral_text {
+  color: #D9D9D9;
+}
+
+.base-font__bold {
+  font-weight: 600;
 }
 
 .navbar {
@@ -175,7 +190,19 @@ header {
   font-size: 96px;
   line-height: 112px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.no-webp .img{
+  background: url("../img/terms_bg.jpg"); }
+
+.img {
+  min-height: 23.75rem;
+  margin-top: 100px;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
 }
 
 @media (min-width: 768px) {
@@ -243,3 +270,5 @@ header {
 }
 
 .webp header{ background-image: url(../img/home_bg.webp); }
+
+.webp .img{ background: url(../img/terms_bg.webp); }

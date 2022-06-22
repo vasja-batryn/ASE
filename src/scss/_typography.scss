@@ -92,9 +92,25 @@ p {
   font-size: $font-size-md;
   color: $color-white;
   font-weight: $font-weight-title;
+
+  &__alt {
+    max-width: 560px;
+    padding: 1.563rem 1.125rem;
+    text-align: center;
+    border: 2px solid $color-white;
+  }
 }
 
-.base-font{
+.base-font {
   font-size: $font-size-mobile;
+
+  &__neutral_text {
+    color: $color-neutral-text;
+  }
+
+  &__bold {
+    font-weight: $font-weight-title; 
+  }
+
 }
 
