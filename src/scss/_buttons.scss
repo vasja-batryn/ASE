@@ -1,0 +1,8 @@
+.btn {
+    border-radius: 0px !important;
+    z-index: 10 !important;
+    &_base {
+        color: $color-white;
+        background: $color-primary-base;
+    }
+}
