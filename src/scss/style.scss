@@ -6,6 +6,7 @@
 
 body {
   background-color: $color-primary-dark;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -37,10 +38,138 @@ header {
   }
 }
 
+.name_home {
+  font-family: 'Expletus Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 129px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.surname_home {
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 138px;
+  letter-spacing: 0.05em;
+  color: #ff4b1b;
+}
+
+.info {
+  height: 473px;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    margin-top: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+
+    color: #ffffff;
+  }
+
+  span {
+    margin-top: 48px;
+    width: 214px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+
+    color: #ffffff;
+  }
+}
+
+.cirkule {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #ff4b1b;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalog_home {
+  height: 1534px;
+}
+
+.lozung {
+  min-height: 272px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.28);
+  p {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  span {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    align-items: center;
+    text-align: center;
+
+    color: #ff4b1b;
+  }
+}
+.card_sponsor {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.sponsor {
+  height: 397px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  .pos {
+    margin-top: -30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
 .img {
   width: 100%;
   min-height: 23.75rem;
   margin-top: 100px;
   background-image: url('@img/terms.png');
   background-repeat: no-repeat;
+  background-size: cover;
 }

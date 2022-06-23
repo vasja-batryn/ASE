@@ -1,18 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  @@include('html/head.html',{ "title":"Головна" })
-  <body>
-    @@include('html/navbar.html',{})
-    <header>
-      <div class="container">
-        <div class="home_title row">
-          <div class="col-lg-12">
+@@include('html/head.html',{ "title":"Головна" })
+
+<body>
+  @@include('html/navbar.html',{})
+  <header>
+    <div class="container">
+      <div class="home_title row">
+        <div class="col-lg-12">
           <h1 class="home">Вітаємо в</h1>
-          </div>
+          <span class="name_home">ASE</span>
+          <span class="surname_home">shop</span>
         </div>
       </div>
-      
-    </header>
-    @@include('html/footer.html',{})
-  </body>
+    </div>
+  </header>
+  <main>
+    <div class="container"> <!--змінила -->
+      <div class="info d-flex">
+        <div class="card_1 cards col-3">
+          <div class="cirkule">
+            <img src="@img/hand-thumbs-up.svg" alt="">
+          </div>
+          <p>Якість</p>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        </div>
+        <div class="card_2 cards col-3">
+          <div class="cirkule">
+            <img src="@img/shield.svg" alt="">
+          </div>
+          <p>Надійність</p>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        </div>
+        <div class="card_3 cards col-3">
+          <div class="cirkule">
+            <img src="@img/chat-right-text.svg" alt="">
+          </div>
+          <p>Підтримка</p>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        </div>
+        <div class="card_4 cards col-3">
+          <div class="cirkule">
+            <img src="@img/box-seam.svg" alt="">
+          </div>
+          <p>Швидка доставка</p>
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        </div>
+      </div>
+
+      <div class="catalog_home">
+
+      </div>
+
+      <div class="lozung">
+        <p><span>Спорт </span> - це життя</p>
+      </div>
+      <div class="sponsor d-flex">
+        <div class="pos">
+        <p>Наші постачальники</p>
+        </div>
+        <div class="card_sponsor">
+          <div class="postachalniki">
+            <img src="@img/Adidas_Logo.png" alt="">
+          </div>
+          <div class="postachalniki">
+            <img src="@img/Logo_NIKE.png" alt="">
+          </div>
+          <div class="postachalniki">
+            <img src="@img/venum_logo.png" alt="">
+          </div>
+          <div class="postachalniki">
+            <img src="@img/Reebok_logo.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  @@include('html/footer.html',{})
+</body>
+
 </html>
