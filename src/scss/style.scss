@@ -13,21 +13,10 @@ body {
 }
 
 header {
+  height: 100vh;
   background-image: url('@img/home_bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+  @include background-pic;
   background-attachment: fixed;
-}
-
-.home_title {
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: left;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
 }
 
 .home {
@@ -37,14 +26,21 @@ header {
   font-size: 96px;
   line-height: 112px;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: $color-white;
+  &_title {
+    height: 100vh;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .img {
-  // width: 100%;
+  width: 100%;
   min-height: 23.75rem;
   margin-top: 100px;
-  background-color: black;
-  background: url("@img/terms_bg.jpg");
-  @include background-pic;
+  background-image: url('@img/terms.png');
+  background-repeat: no-repeat;
 }

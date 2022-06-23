@@ -1,5 +1,6 @@
 @mixin background-pic {
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     background-clip: border-box;
 }
