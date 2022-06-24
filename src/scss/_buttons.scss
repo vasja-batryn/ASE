@@ -1,8 +1,28 @@
 .btn {
-    border-radius: 0px !important;
-    z-index: 10 !important;
-    &_base {
-        color: $color-white;
-        background: $color-primary-base;
+  border-radius: 0rem !important;
+  z-index: 10 !important;
+  &_base {
+    color: $color-white;
+    background: $color-primary-base;
+    &:hover {
+      color: $color-primary-base;
+      border: 1px solid $color-primary-base;
+      background: transparent;
     }
+  }
+
+  &_size {
+    width: 250px;
+    height: 45px;
+  }
+
+  &_sec {
+    color: $color-primary-base;
+    border: 1px solid $color-primary-base;
+    &:hover {
+      color: $color-white;
+      background-color: $color-primary-base;
+      border: none;
+    }
+  }
 }

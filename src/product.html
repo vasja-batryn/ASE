@@ -1,9 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  @@include('html/head.html',{ "title":"Товар" })
-  <body>
-    @@include('html/navbar.html',{})
-    <main></main>
-    @@include('html/footer.html',{})
-  </body>
+@@include('html/head.html',{ "title":"Товар" })
+
+<body>
+  @@include('html/navbar.html',{})
+  <main>
+    <div class="container">
+      <div class="product__block">
+        <div class="row">
+          <div class="col-md-7 col-12">
+            <div
+              class="product_heropic d-flex me-0 justify-content-center align-items-center">
+              <img class="img_hero" src="@img/gloves.png"
+                alt="Боксерські перчатки">
+            </div>
+          </div>
+          <div
+            class="col-md-5 ps-md-0 col-12 description mt-3">
+            <h3 class="upper title">Боксерські перчатки</h3>
+            <p
+              class="upper base-font base-font__alt base-font__bold">
+              Опис</p>
+            <p class="base-font base-font__neutral_text">
+              Exercitationem aliquid voluptatum, quos
+              deleniti consequuntur ea consectetur quae vero
+              architecto culpa ex quisquam id, in dolores
+              possimus? Sunt aliquid qui blanditiis.</p>
+            <p
+              class="upper base-font base-font__white_text base-font__bold">
+              Ціна:</p>
+            <p class="upper title mb-5">₴ 600</p>
+            <div>
+              <button
+              class="btn btn_sec btn_size mt-5">Додати
+              в корзину</button>
+              <button
+              class="btn btn_base btn_size mt-5">Швидке замовлення</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Separator -->
+      <div
+        class="liked_part d-flex align-items-center mt-md-0 mt-5 justify-content-between">
+        <h3 class="upper title">Вам також може сподобатись
+        </h3>
+        <div class="line_h  mb-3"></div>
+      </div>
+      <!-- Slider -->
+      <div class="splide my-5" role="group"
+        aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="product_card">
+                <a class="product_card__img d-flex justify-content-center align-items-center"
+                  href="product.html">
+                  <img style="width:243px;"
+                    src="@img/gloves.png"
+                    alt="Боксерські перчатки">
+                </a>
+                <div class="product_card_desc ms-1">
+                  <a class="upper base-font base-font__white_text base-font__bold mt-3 nav-link"
+                    href="product.html">Боксерські
+                    перчатки</a>
+                  <p
+                    class="mb-0 title_price base-font__bold">
+                    ₴ 600</p>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="product_card">
+                <a class="product_card__img d-flex justify-content-center align-items-center"
+                  href="product.html">
+                  <img style="width:243px;"
+                    src="@img/gloves.png"
+                    alt="Боксерські перчатки">
+                </a>
+                <div class="product_card_desc ms-1">
+                  <a class="upper base-font base-font__white_text base-font__bold mt-3 nav-link"
+                    href="product.html">Боксерські
+                    перчатки</a>
+                  <p
+                    class="mb-0 title_price base-font__bold">
+                    ₴ 600</p>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="product_card">
+                <a class="product_card__img d-flex justify-content-center align-items-center"
+                  href="product.html">
+                  <img style="width:243px;"
+                    src="@img/gloves.png"
+                    alt="Боксерські перчатки">
+                </a>
+                <div class="product_card_desc ms-1">
+                  <a class="upper base-font base-font__white_text base-font__bold mt-3 nav-link"
+                    href="product.html">Боксерські
+                    перчатки</a>
+                  <p
+                    class="mb-0 title_price base-font__bold">
+                    ₴ 600</p>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="product_card">
+                <a class="product_card__img d-flex justify-content-center align-items-center"
+                  href="product.html">
+                  <img style="width:243px;"
+                    src="@img/gloves.png"
+                    alt="Боксерські перчатки">
+                </a>
+                <div class="product_card_desc ms-1">
+                  <a class="upper base-font base-font__white_text base-font__bold mt-3 nav-link"
+                    href="product.html">Боксерські
+                    перчатки</a>
+                  <p
+                    class="mb-0 title_price base-font__bold">
+                    ₴ 600</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+  </main>
+  @@include('html/footer.html',{})
+</body>
+
 </html>

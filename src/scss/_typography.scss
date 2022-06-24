@@ -89,7 +89,7 @@ p {
 }
 
 .title {
-  font-size: $font-size-md;
+  font-size: $font-size-md; //30px
   color: $color-white;
   font-weight: $font-weight-title;
 
@@ -99,17 +99,32 @@ p {
     text-align: center;
     border: 2px solid $color-white;
   }
+
+  &_price{
+    font-size: 1.25rem;
+    color: $color-neutral-bg;
+  }
 }
 
 .base-font {
-  font-size: $font-size-mobile;
+  font-size: $font-size-mobile; //14-15px
 
   &__neutral_text {
     color: $color-neutral-text;
   }
 
+  &__white_text {
+    color: $color-white;
+  }
+
   &__bold {
     font-weight: $font-weight-title; 
   }
+
+  &__alt{
+    color: $color-primary-base; //orange
+  }
 }
+
+
 

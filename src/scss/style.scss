@@ -1,5 +1,6 @@
 @import 'params';
 @import 'mixins';
+@import 'buttons';
 @import 'typography';
 @import 'navbar';
 @import 'footer';
@@ -7,10 +8,6 @@
 body {
   background-color: $color-primary-dark;
   font-family: 'Montserrat', sans-serif;
-}
-
-.container {
-  max-width: 1140px;
 }
 
 header {
@@ -165,6 +162,7 @@ header {
     color: #ffffff;
   }
 }
+
 .img {
   width: 100%;
   min-height: 23.75rem;
@@ -172,4 +170,55 @@ header {
   background-image: url('@img/terms.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.product {
+  &_card{
+    max-width: 270px;
+    min-height: 435px;
+
+    &__img{
+      height: 21.25rem;
+      background: $color-neutral-text;
+    }
+
+    &:hover{
+      background-color: rgba(255, 255, 255, 0.13);
+    }
+  }
+
+  &__block {
+    margin-top: 180px;
+    min-height: 43.125rem;
+  }
+
+  &_heropic {
+    max-width: 35rem;
+    height: 32.5rem;
+    background-color: $color-white;
+  }
+}
+
+.line_h { 
+  height: 2px;
+  width: 100%;
+  max-width: 33.125rem;
+  background-color: $color-white;
+}
+
+.slide{
+  min-height: 27.188rem;
+}
+
+@media (max-width: 991.98px) { 
+  .product {
+    &__block {
+      margin-top: 100px;
+    }}
+  .img{
+    &_hero{
+      max-width: 27rem;
+    }
+  }
+
 }

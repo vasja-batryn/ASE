@@ -4,6 +4,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+.btn {
+  border-radius: 0rem !important;
+  z-index: 10 !important;
+}
+
+.btn_base {
+  color: #ffffff;
+  background: #FF4B1B;
+}
+
+.btn_base:hover {
+  color: #FF4B1B;
+  border: 1px solid #FF4B1B;
+  background: transparent;
+}
+
+.btn_size {
+  width: 250px;
+  height: 45px;
+}
+
+.btn_sec {
+  color: #FF4B1B;
+  border: 1px solid #FF4B1B;
+}
+
+.btn_sec:hover {
+  color: #ffffff;
+  background-color: #FF4B1B;
+  border: none;
+}
+
 h1,
 .h1 {
   margin-top: 0;
@@ -90,6 +122,11 @@ p {
   border: 2px solid #ffffff;
 }
 
+.title_price {
+  font-size: 1.25rem;
+  color: #AAADB1;
+}
+
 .base-font {
   font-size: 0.938rem;
 }
@@ -98,8 +135,16 @@ p {
   color: #D9D9D9;
 }
 
+.base-font__white_text {
+  color: #ffffff;
+}
+
 .base-font__bold {
   font-weight: 600;
+}
+
+.base-font__alt {
+  color: #FF4B1B;
 }
 
 .navbar {
@@ -155,10 +200,6 @@ input:focus {
 body {
   background-color: #525355;
   font-family: "Montserrat", sans-serif;
-}
-
-.container {
-  max-width: 1140px;
 }
 
 .no-webp header{
@@ -379,6 +420,42 @@ header {
   background-size: cover;
 }
 
+.product_card {
+  max-width: 270px;
+  min-height: 435px;
+}
+
+.product_card__img {
+  height: 21.25rem;
+  background: #D9D9D9;
+}
+
+.product_card:hover {
+  background-color: rgba(255, 255, 255, 0.13);
+}
+
+.product__block {
+  margin-top: 180px;
+  min-height: 43.125rem;
+}
+
+.product_heropic {
+  max-width: 35rem;
+  height: 32.5rem;
+  background-color: #ffffff;
+}
+
+.line_h {
+  height: 2px;
+  width: 100%;
+  max-width: 33.125rem;
+  background-color: #ffffff;
+}
+
+.slide {
+  min-height: 27.188rem;
+}
+
 @media (min-width: 768px) {
   h1,
   .h1 {
@@ -440,6 +517,16 @@ header {
   h6,
   .h6 {
     font-size: 1.375rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .product__block {
+    margin-top: 100px;
+  }
+
+  .img_hero {
+    max-width: 27rem;
   }
 }
 
