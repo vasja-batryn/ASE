@@ -7,6 +7,9 @@
 .btn {
   border-radius: 0rem !important;
   z-index: 10 !important;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .btn_base {
@@ -147,6 +150,27 @@ p {
   color: #FF4B1B;
 }
 
+.small_font {
+  font-size: 0.688rem;
+}
+
+.small_font__price {
+  font-size: 0.75rem;
+  color: #AAADB1;
+  font-weight: 600;
+}
+
+.catalog_card {
+  margin: 0 26px 13px 0;
+  max-width: 10.875rem;
+  min-height: 17.375rem;
+}
+
+.catalog_pic {
+  height: 13.5rem;
+  background-color: #ffffff;
+}
+
 .navbar {
   min-height: 6.25rem;
   background: transparent;
@@ -195,6 +219,10 @@ input {
 
 input:focus {
   outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -454,6 +482,25 @@ header {
 
 .slide {
   min-height: 27.188rem;
+}
+
+.margin {
+  margin-top: 100px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #525355;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-color: #FF4B1B;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #525355;
 }
 
 @media (min-width: 768px) {

@@ -2,8 +2,13 @@
 @import 'mixins';
 @import 'buttons';
 @import 'typography';
+@import 'catalog';
 @import 'navbar';
 @import 'footer';
+
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: $color-primary-dark;
@@ -210,6 +215,10 @@ header {
   min-height: 27.188rem;
 }
 
+.margin{
+  margin-top: 100px; // for mergins after navbar
+}
+
 @media (max-width: 991.98px) { 
   .product {
     &__block {
@@ -222,3 +231,17 @@ header {
   }
 
 }
+
+// scrollbar
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: $color-primary-dark; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-color: $color-primary-base; }
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: $color-primary-dark; }

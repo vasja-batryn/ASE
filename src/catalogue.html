@@ -3,7 +3,105 @@
   @@include('html/head.html',{ "title":"Каталог" })
   <body>
     @@include('html/navbar.html',{})
-    <main>catalogue</main>
+    <main>
+      <div class="container mb-5 margin">
+        <h1 class="upper mt-5 mb-5 text-center">Каталог</h1>
+        <div class="row">
+          <aside class="col-5">
+            <div class="categories">
+              <h4 class="upper">Категорії</h4>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Бокс та змішані єдиноборства
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item active" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+          <!-- Column with cards -->
+          <div class="col-7 d-flex flex-wrap">
+            <!-- Card -->
+            <div class="catalog_card">
+              <div class="catalog_pic d-flex justify-content-center align-items-center">
+                <a  href="product.html"></a>
+                <img src="@img/black_nike.png" alt="Кепка nike чорна">
+              </div>
+              <div class="desc mt-2">
+                <a href="product.html" class="upper small_font base-font__white_text base-font__bold nav-link">Кепка nike чорна</a>
+                <span class=" small_font__price ase-font__bold"> ₴ 600</span>
+              </div>
+            </div>
+            <!-- End of card -->
+            <!-- Card -->
+            <div class="catalog_card">
+              <div class="catalog_pic d-flex justify-content-center align-items-center">
+                <a  href="product.html"></a>
+                <img src="@img/black_nike.png" alt="Кепка nike чорна">
+              </div>
+              <div class="desc mt-2">
+                <a href="product.html" class="upper small_font base-font__white_text base-font__bold nav-link">Кепка nike чорна</a>
+                <span class=" small_font__price ase-font__bold"> ₴ 600</span>
+              </div>
+            </div>
+            <!-- End of card -->
+            <!-- Card -->
+            <div class="catalog_card">
+              <div class="catalog_pic d-flex justify-content-center align-items-center">
+                <a  href="product.html"></a>
+                <img src="@img/black_nike.png" alt="Кепка nike чорна">
+              </div>
+              <div class="desc mt-2">
+                <a href="product.html" class="upper small_font base-font__white_text base-font__bold nav-link">Кепка nike чорна</a>
+                <span class=" small_font__price ase-font__bold"> ₴ 600</span>
+              </div>
+            </div>
+            <!-- End of card -->
+            <!-- Card -->
+            <div class="catalog_card">
+              <div class="catalog_pic d-flex justify-content-center align-items-center">
+                <a  href="product.html"></a>
+                <img src="@img/black_nike.png" alt="Кепка nike чорна">
+              </div>
+              <div class="desc mt-2">
+                <a href="product.html" class="upper small_font base-font__white_text base-font__bold nav-link">Кепка nike чорна</a>
+                <span class=" small_font__price ase-font__bold"> ₴ 600</span>
+              </div>
+            </div>
+            <!-- End of card -->
+            <!-- Card -->
+            <div class="catalog_card">
+              <div class="catalog_pic d-flex justify-content-center align-items-center">
+                <a  href="product.html"></a>
+                <img src="@img/black_nike.png" alt="Кепка nike чорна">
+              </div>
+              <div class="desc mt-2">
+                <a href="product.html" class="upper small_font base-font__white_text base-font__bold nav-link">Кепка nike чорна</a>
+                <span class=" small_font__price ase-font__bold"> ₴ 600</span>
+              </div>
+            </div>
+            <!-- End of card -->
+            <!-- Card -->
+            <div class="catalog_card">
+              <div class="catalog_pic d-flex justify-content-center align-items-center">
+                <a  href="product.html"></a>
+                <img src="@img/black_nike.png" alt="Кепка nike чорна">
+              </div>
+              <div class="desc mt-2">
+                <a href="product.html" class="upper small_font base-font__white_text base-font__bold nav-link">Кепка nike чорна</a>
+                <span class=" small_font__price ase-font__bold"> ₴ 600</span>
+              </div>
+            </div>
+            <!-- End of card -->
+          </div>
+        </div>
+      </div>
+    </main>
     @@include('html/footer.html',{})
   </body>
 </html>

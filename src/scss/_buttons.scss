@@ -1,6 +1,7 @@
 .btn {
   border-radius: 0rem !important;
   z-index: 10 !important;
+  transition: all 0.5s;
   &_base {
     color: $color-white;
     background: $color-primary-base;

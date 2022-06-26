@@ -126,5 +126,15 @@ p {
   }
 }
 
+.small_font{
+  font-size: $font-size-mobile-xs;
+  &__price{
+    font-size: 0.75rem;
+    color: $color-neutral-bg;
+    font-weight: $font-weight-title;
+  }
+
+}
+
 
 

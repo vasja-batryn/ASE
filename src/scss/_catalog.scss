@@ -1,0 +1,12 @@
+.catalog{
+    &_card{
+        margin: 0 26px 13px 0;
+        max-width: 10.875rem;
+        min-height: 17.375rem;
+
+    }
+    &_pic{
+        height: 13.5rem;
+        background-color: $color-white;
+    }
+}
