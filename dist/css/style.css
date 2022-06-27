@@ -39,6 +39,17 @@
   border: none;
 }
 
+.btn__categories:hover,
+.btn__categories:active,
+.btn__categories:focus,
+.btn__categories:active:focus,
+.btn__categories:focus-visible,
+.btn__categories:focus-within {
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+
 h1,
 .h1 {
   margin-top: 0;
@@ -128,6 +139,21 @@ p {
 .title_price {
   font-size: 1.25rem;
   color: #AAADB1;
+}
+
+.title_big {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 78px;
+  letter-spacing: 0.15em;
+}
+
+.title__categories {
+  font-size: 1.25rem;
+}
+
+.title_hover:hover {
+  color: #FF4B1B;
 }
 
 .base-font {
@@ -226,7 +252,7 @@ html {
 }
 
 body {
-  background-color: #525355;
+  background-color: #2F2F2F;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -490,7 +516,7 @@ header {
 
 ::-webkit-scrollbar {
   width: 7px;
-  background-color: #525355;
+  background-color: #2F2F2F;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -500,7 +526,7 @@ header {
 
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-  background-color: #525355;
+  background-color: #2F2F2F;
 }
 
 @media (min-width: 768px) {

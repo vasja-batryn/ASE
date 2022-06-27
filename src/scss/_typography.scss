@@ -100,9 +100,23 @@ p {
     border: 2px solid $color-white;
   }
 
-  &_price{
+  &_price {
     font-size: 1.25rem;
     color: $color-neutral-bg;
+  } 
+
+  &_big {
+    font-size: 4rem;
+    font-weight: $font-weight-middle;
+    line-height: 78px;
+    letter-spacing: 0.15em;
+  }
+
+  &__categories{
+    font-size: 1.25rem;
+  }
+  &_hover:hover{
+    color: $color-primary-base;
   }
 }
 
@@ -118,23 +132,19 @@ p {
   }
 
   &__bold {
-    font-weight: $font-weight-title; 
+    font-weight: $font-weight-title;
   }
 
-  &__alt{
+  &__alt {
     color: $color-primary-base; //orange
   }
 }
 
-.small_font{
+.small_font {
   font-size: $font-size-mobile-xs;
-  &__price{
+  &__price {
     font-size: 0.75rem;
     color: $color-neutral-bg;
     font-weight: $font-weight-title;
   }
-
 }
-
-
-

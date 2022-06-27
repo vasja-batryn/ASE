@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css?_v=20220626174901" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.min.css?_v=20220626174901">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css?_v=20220626174901">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css?_v=20220627223254" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220627223254">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css?_v=20220627223254">
     <title>Каталог</title>
 </head>
   <body>
@@ -50,27 +50,64 @@
 
     <main>
       <div class="container mb-5 margin">
-        <h1 class="upper mt-5 mb-5 text-center">Каталог</h1>
-        <div class="row">
-          <aside class="col-5">
+        <h1 class="upper title_big base-font__white_text mt-5 mb-5 text-center">Каталог</h1>
+        <div class="row d-flex justify-content-between">
+          <aside class="col-6 col-md-5">
             <div class="categories">
-              <h4 class="upper">Категорії</h4>
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                  Бокс та змішані єдиноборства
-                </button>
-                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                  <li><a class="dropdown-item active" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
+              <h4 class="upper base-font__white_text base-font__bold title__categories">Категорії</h4>
+              <!-- Categories and subcategories -->
+              <a class="nav-link btn__categories base-font__white_text title__categories mb-1" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Бокс та змішані єдиноборства <img src="img/caret-down.svg" alt="">
+              </a>
+              <div class="collapse" id="collapseExample">
+                <div class="title__categories base-font__white_text ms-3">
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські перчатки</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Шоломи</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські груші</a>
+                </div>
               </div>
+              <!-- end -->
+              <!-- Categories and subcategories -->
+              <a class="nav-link btn__categories base-font__white_text title__categories mb-1" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                Фітнес <img src="img/caret-down.svg" alt="">
+              </a>
+              <div class="collapse" id="collapseExample1">
+                <div class="title__categories base-font__white_text ms-3">
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські перчатки</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Шоломи</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські груші</a>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- Categories and subcategories -->
+              <a class="nav-link btn__categories base-font__white_text title__categories mb-1" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                Спортивний інвентар <img src="img/caret-down.svg" alt="">
+              </a>
+              <div class="collapse" id="collapseExample2">
+                <div class="title__categories base-font__white_text ms-3">
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські перчатки</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Шоломи</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські груші</a>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- Categories and subcategories -->
+              <a class="nav-link btn__categories base-font__white_text title__categories mb-1" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                Одяг <img src="img/caret-down.svg" alt="">
+              </a>
+              <div class="collapse" id="collapseExample3">
+                <div class="title__categories base-font__white_text ms-3">
+                  <a class="nav-link title_hover" href="catalogue.html">Футболки</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Шорти</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Спортивні костюми</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Кепки</a>
+                </div>
+              </div>
+              <!-- end -->
             </div>
           </aside>
           <!-- Column with cards -->
-          <div class="col-7 d-flex flex-wrap">
+          <div class=" col-6 col-md-7 d-flex flex-wrap">
             <!-- Card -->
             <div class="catalog_card">
               <div class="catalog_pic d-flex justify-content-center align-items-center">
@@ -179,9 +216,9 @@
 </div>
 <p class="text-center mt-auto align-text-bottom">Права захищені © 2022 ASE |</p>
 </footer>
-<script src="js/app.min.js?_v=20220626174901"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js?_v=20220626174901" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js?_v=20220626174901"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css?_v=20220626174901">
+<script src="js/app.min.js?_v=20220627223254"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js?_v=20220627223254" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js?_v=20220627223254"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css?_v=20220627223254">
   </body>
 </html>

@@ -5,27 +5,64 @@
     @@include('html/navbar.html',{})
     <main>
       <div class="container mb-5 margin">
-        <h1 class="upper mt-5 mb-5 text-center">Каталог</h1>
-        <div class="row">
-          <aside class="col-5">
+        <h1 class="upper title_big base-font__white_text mt-5 mb-5 text-center">Каталог</h1>
+        <div class="row d-flex justify-content-between">
+          <aside class="col-6 col-md-5">
             <div class="categories">
-              <h4 class="upper">Категорії</h4>
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                  Бокс та змішані єдиноборства
-                </button>
-                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                  <li><a class="dropdown-item active" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
+              <h4 class="upper base-font__white_text base-font__bold title__categories">Категорії</h4>
+              <!-- Categories and subcategories -->
+              <a class="nav-link btn__categories base-font__white_text title__categories mb-1" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Бокс та змішані єдиноборства <img src="@img/caret-down.svg" alt="">
+              </a>
+              <div class="collapse" id="collapseExample">
+                <div class="title__categories base-font__white_text ms-3">
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські перчатки</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Шоломи</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські груші</a>
+                </div>
               </div>
+              <!-- end -->
+              <!-- Categories and subcategories -->
+              <a class="nav-link btn__categories base-font__white_text title__categories mb-1" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                Фітнес <img src="@img/caret-down.svg" alt="">
+              </a>
+              <div class="collapse" id="collapseExample1">
+                <div class="title__categories base-font__white_text ms-3">
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські перчатки</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Шоломи</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські груші</a>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- Categories and subcategories -->
+              <a class="nav-link btn__categories base-font__white_text title__categories mb-1" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                Спортивний інвентар <img src="@img/caret-down.svg" alt="">
+              </a>
+              <div class="collapse" id="collapseExample2">
+                <div class="title__categories base-font__white_text ms-3">
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські перчатки</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Шоломи</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Боксерські груші</a>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- Categories and subcategories -->
+              <a class="nav-link btn__categories base-font__white_text title__categories mb-1" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                Одяг <img src="@img/caret-down.svg" alt="">
+              </a>
+              <div class="collapse" id="collapseExample3">
+                <div class="title__categories base-font__white_text ms-3">
+                  <a class="nav-link title_hover" href="catalogue.html">Футболки</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Шорти</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Спортивні костюми</a>
+                  <a class="nav-link title_hover" href="catalogue.html">Кепки</a>
+                </div>
+              </div>
+              <!-- end -->
             </div>
           </aside>
           <!-- Column with cards -->
-          <div class="col-7 d-flex flex-wrap">
+          <div class=" col-6 col-md-7 d-flex flex-wrap">
             <!-- Card -->
             <div class="catalog_card">
               <div class="catalog_pic d-flex justify-content-center align-items-center">

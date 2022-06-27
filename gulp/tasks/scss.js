@@ -2,10 +2,10 @@ import dartSass from 'sass'; // preprocessor
 import gulpSass from 'gulp-sass'; // for compiling sass
 import rename from 'gulp-rename'; // for renaming files min.css
 
-import cleanCss from 'gulp-clean-css'; // Сжатие CSS файла
-import webpcss from 'gulp-webpcss'; // Вывод WEBP изображений
-import autoprefixer from 'gulp-autoprefixer'; // Добавление вендорных префиксов
-import groupCssMediaQueries from 'gulp-group-css-media-queries'; // Групировка медиа запросов
+import cleanCss from 'gulp-clean-css'; // for compression CSS 
+import webpcss from 'gulp-webpcss'; // output WEBP pictures
+import autoprefixer from 'gulp-autoprefixer'; // for adding autoprefixes
+import groupCssMediaQueries from 'gulp-group-css-media-queries'; // groups media quaries
 
 const sass = gulpSass(dartSass);
 
@@ -30,7 +30,7 @@ export const scss = () => {
 		overrideBrowserslist: ["last 3 versions"],
 		cascade: true
     }))
-    // Раскомментировать если нужен не сжатый дубль файла стилей
+    
 	.pipe(app.gulp.dest(app.path.build.css))
     .pipe(cleanCss())
     .pipe(rename({
