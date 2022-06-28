@@ -125,7 +125,6 @@ p {
 
 .title {
   font-size: 1.875rem;
-  color: #ffffff;
   font-weight: 600;
 }
 
@@ -204,6 +203,20 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-clip: border-box;
+}
+
+.about__block {
+  min-height: 755px;
+}
+
+.about__title {
+  border-bottom: 2px solid #FF4B1B;
+}
+
+.about__round_photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 .navbar {

@@ -2,7 +2,19 @@
     &__img{
         width: 100%;
         height: 100vh;
-        // background-image: url('@img/about_bg.png');
         @include background-pic;
+    }
+    &__block{
+        min-height: 755px;
+    }
+
+    &__title{
+        border-bottom: 2px solid $color-primary-base;
+    }
+
+    &__round_photo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
     }
 }
