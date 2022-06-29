@@ -2,44 +2,91 @@
   <div class="container d-flex justify-content-evenly mt-auto">
     <div class="d-flex flex-column justify-content-center">
       <ul class="nav navbar-nav flex-column">
-        <li><a class="nav-link upper base-font" href="about.html">Про нас</a></li>
-        <li><a class="nav-link upper base-font" href="politic.html">Політика конфіденційності</a></li>
-        <li><a class="nav-link upper base-font" href="termsOfUse.html">Умови використання сайту</a></li>
+        <li>
+          <a class="nav-link upper base-font" href="about.html">Про нас</a>
+        </li>
+        <li>
+          <a class="nav-link upper base-font" href="politic.html"
+            >Політика конфіденційності</a
+          >
+        </li>
+        <li>
+          <a class="nav-link upper base-font" href="termsOfUse.html"
+            >Умови використання сайту</a
+          >
+        </li>
       </ul>
     </div>
     <div class="line"></div>
     <div class="d-flex flex-column justify-content-center">
       <h5 class="upper base-font mb-4">Контакти</h5>
       <form action="">
-        <input type="email"
-        placeholder="example.1234@gmail.com" />
-        <button class="btn btn_base"><img src="@img/arrowR.svg" alt=""></button>
+        <input type="email" placeholder="example.1234@gmail.com" />
+        <button class="btn btn_base me-1">
+          <img src="@img/arrowR.svg" alt="" />
+        </button>
       </form>
-
 
       <div class="media mt-4">
         <ul class="nav">
-            <li class="me-3 ps-0"><a href="#"><img src="@img/Facebook.svg" alt="" /></a></li>
-            <li  class="me-3"><a href="#"><img src="@img/Twitter.svg" alt="" /></a></li>
-            <li  class="me-3"><a href="#"><img src="@img/Instagram.svg" alt="" /></a></li>
-            <li  class="me-3"><a href="#"><img src="@img/Telegram.svg" alt="" /></a></li>
+          <li class="me-3 ps-0">
+            <a href="#"><img src="@img/Facebook.svg" alt="" /></a>
+          </li>
+          <li class="me-3">
+            <a href="#"><img src="@img/Twitter.svg" alt="" /></a>
+          </li>
+          <li class="me-3">
+            <a href="#"><img src="@img/Instagram.svg" alt="" /></a>
+          </li>
+          <li class="me-3">
+            <a href="#"><img src="@img/Telegram.svg" alt="" /></a>
+          </li>
         </ul>
       </div>
     </div>
-
-</div>
-<p class="text-center mt-auto align-text-bottom">Права захищені © 2022 ASE |</p>
-
+  </div>
+  <p class="text-center mt-auto align-text-bottom small_font">
+    Права захищені © 2022 ASE |
+  </p>
 </footer>
 
- <!-- offcanvas -->
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      l
-    </div>
+<!-- offcanvas -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <button type="button" data-bs-dismiss="offcanvas" class="btn border-0" aria-label="Close">
+      <img src="@img/arrowL.svg" alt="" />
+    </button>
   </div>
+  <div class="offcanvas-body d-flex flex-column align-items-center">
+    <div class="offcanvas_card row py-1 px-0">
+      <div class="col-4 my-auto ps-0">
+        <img style="width: 109px; height:102px;" src="@img/gloves.png" alt="Боксерські перчатки">
+      </div>
+      <div class="col-7 d-flex flex-column px-0">
+        <div class="my-auto d-flex flex-column">
+          <a class="upper base-font base-font__white_text base-font__bold nav-link" href="product.html">Боксерські перчатки</a>
+          <span class="title base-font__alt align-bottom pt-4">₴ 600</span>
+        </div>
+      </div>
+      <div class="col-1">
+        <button type="button" class="btn-close btn-close-white my-2" aria-label="Close"></button>
+      </div>
+    </div>
 
+    <div class="offcanvas_card row py-1 px-0">
+      <div class="col-4 my-auto ps-0">
+        <img style="width: 109px; height:102px;" src="@img/gloves.png" alt="Боксерські перчатки">
+      </div>
+      <div class="col-7 d-flex flex-column px-0">
+        <div class="my-auto d-flex flex-column">
+          <a class="upper base-font base-font__white_text base-font__bold nav-link" href="product.html">Боксерські перчатки</a>
+          <span class="title base-font__alt align-bottom pt-4">₴ 600</span>
+        </div>
+      </div>
+      <div class="col-1">
+        <button type="button" class="btn-close btn-close-white my-2" aria-label="Close"></button>
+      </div>
+    </div>
+    <button class="btn btn_size btn_base my-3 align-middle pt-2" onclick="location.href='order.html'"type="button">Оформити замовлення</button>
+  </div>
+</div>

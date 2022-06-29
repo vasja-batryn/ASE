@@ -327,9 +327,18 @@ header {
 }
 
 .offcanvas {
+  width: 30rem !important;
   background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.08);
   backdrop-filter: blur(15px);
   color: $color-white;
+  &_card{
+    width: 24.875rem;
+    min-height: 8.375rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid $color-white;
+    border-bottom: 1px solid $color-white;
+
+  }
 }
 
 .offcanvas-backdrop.show {
