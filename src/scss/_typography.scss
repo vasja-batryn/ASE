@@ -91,6 +91,7 @@ p {
 .title {
   font-size: $font-size-md; //30px
   font-weight: $font-weight-title;
+  color: $color-white;
 
   &__alt {
     max-width: 560px;
@@ -102,7 +103,7 @@ p {
   &_price {
     font-size: 1.25rem;
     color: $color-neutral-bg;
-  } 
+  }
 
   &_big {
     font-size: 4rem;//64px

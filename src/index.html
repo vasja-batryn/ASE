@@ -16,8 +16,9 @@
     </div>
   </header>
   <main>
-    <div class="container"> <!--змінила -->
-      <div class="info d-flex">
+    <div class="info">
+        <div class="container"> <!--змінила -->
+          <div class="d-flex pt-5">
         <div class="card_1 cards col-3">
           <div class="cirkule">
             <img src="@img/hand-thumbs-up.svg" alt="">
@@ -47,9 +48,19 @@
           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
         </div>
       </div>
-
+      </div>
+    </div>
       <div class="catalog_home">
-
+        <div class="container">
+          <div class="grid">
+            <div class="grid-item img_reg46">
+              <img src="@img/rec46.png" alt="aaa">
+            </div>
+            <div class="grid-item grid-item--width2">...</div>
+            <div class="grid-item">...</div>
+            ...
+          </div>
+        </div>
       </div>
 
       <div class="lozung">
@@ -75,22 +86,13 @@
 
         </div>
       </div>
-    </div>
   </main>
 
   @@include('html/footer.html',{})
 
-  <!-- offcanvas -->
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      ...
-    </div>
-  </div>
 
+
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   @@include('html/scripts.html',{})
 </body>
 

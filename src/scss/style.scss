@@ -205,7 +205,7 @@ header {
   }
 }
 
-.line_h { 
+.line_h {
   height: 2px;
   width: 100%;
   max-width: 33.125rem;
@@ -220,7 +220,7 @@ header {
   margin-top: 100px; // for mergins after navbar
 }
 
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
   .product {
     &__block {
       margin-top: 100px;
@@ -232,6 +232,27 @@ header {
   }
 
 }
+
+.img_reg46{
+
+  background-image: url('@img/rec46.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.offcanvas{
+  background-color: rgba($color: rgb(255, 255, 255), $alpha: .08);
+  backdrop-filter: blur(15px);
+  color: $color-white;
+}
+
+.offcanvas-backdrop.show{
+opacity: 0;
+}
+
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
 
 // scrollbar
 

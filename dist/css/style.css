@@ -126,6 +126,7 @@ p {
 .title {
   font-size: 1.875rem;
   font-weight: 600;
+  color: #ffffff;
 }
 
 .title__alt {
@@ -536,6 +537,33 @@ header {
   margin-top: 100px;
 }
 
+.no-webp .img_reg46{
+  background-image: url("../img/rec46.png"); }
+
+.img_reg46 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.offcanvas {
+  background-color: rgba(255, 255, 255, 0.08);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  color: #ffffff;
+}
+
+.offcanvas-backdrop.show {
+  opacity: 0;
+}
+
+.grid-item {
+  width: 200px;
+}
+
+.grid-item--width2 {
+  width: 400px;
+}
+
 ::-webkit-scrollbar {
   width: 7px;
   background-color: #2F2F2F;
@@ -628,3 +656,5 @@ header {
 .webp header{ background-image: url(../img/home_bg.webp); }
 
 .webp .img{ background-image: url(../img/terms.webp); }
+
+.webp .img_reg46{ background-image: url(../img/rec46.webp); }
