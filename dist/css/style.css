@@ -543,6 +543,89 @@ header {
 .img_reg46 {
   background-repeat: no-repeat;
   background-size: cover;
+  width: 603px !important;
+  height: 285px;
+}
+
+.no-webp .img_reg47{
+  background-image: url("../img/rec47.png"); }
+
+.img_reg47 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 275px !important;
+  height: 285px;
+  top: 0 !important;
+}
+
+.no-webp .img_reg49{
+  background-image: url("../img/rec49.png"); }
+
+.img_reg49 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 275px !important;
+  height: 285px;
+}
+
+.no-webp .img_reg50{
+  background-image: url("../img/rec50.png"); }
+
+.img_reg50 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 285px;
+  width: 603px !important;
+  left: 275px !important;
+  top: 285px !important;
+}
+
+.no-webp .img_reg51{
+  background-image: url("../img/rec51.png"); }
+
+.img_reg51 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 570px !important;
+  width: 275px !important;
+  left: 878px !important;
+  top: 0px !important;
+}
+
+.no-webp .img_reg52{
+  background-image: url("../img/rec52.png"); }
+
+.img_reg52 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 285px;
+  width: 603px !important;
+  left: 0px !important;
+  top: 570px !important;
+}
+
+.no-webp .img_reg53{
+  background-image: url("../img/rec53.png"); }
+
+.img_reg53 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 285px;
+  width: 275px !important;
+  left: 603px !important;
+  top: 570px !important;
+}
+
+.no-webp .img_reg54{
+  background-image: url("../img/rec54.png"); }
+
+.img_reg54 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 285px;
+  width: 275px !important;
+  left: 878px !important;
+  top: 570px !important;
 }
 
 .offcanvas {
@@ -658,3 +741,17 @@ header {
 .webp .img{ background-image: url(../img/terms.webp); }
 
 .webp .img_reg46{ background-image: url(../img/rec46.webp); }
+
+.webp .img_reg47{ background-image: url(../img/rec47.webp); }
+
+.webp .img_reg49{ background-image: url(../img/rec49.webp); }
+
+.webp .img_reg50{ background-image: url(../img/rec50.webp); }
+
+.webp .img_reg51{ background-image: url(../img/rec51.webp); }
+
+.webp .img_reg52{ background-image: url(../img/rec52.webp); }
+
+.webp .img_reg53{ background-image: url(../img/rec53.webp); }
+
+.webp .img_reg54{ background-image: url(../img/rec54.webp); }
