@@ -1,30 +1,30 @@
-@import 'params';
-@import 'mixins';
-@import 'buttons';
-@import 'typography';
-@import 'catalog';
-@import 'about';
-@import 'navbar';
-@import 'footer';
+@import "params";
+@import "mixins";
+@import "buttons";
+@import "typography";
+@import "catalog";
+@import "about";
+@import "navbar";
+@import "footer";
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
   background-color: $color-primary-dark;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
   height: 100vh;
-  background-image: url('@img/home_bg.jpg');
+  background-image: url("@img/home_bg.jpg");
   @include background-pic;
   background-attachment: fixed;
 }
 
 .home {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 100;
   font-size: 96px;
@@ -42,7 +42,7 @@ header {
 }
 
 .name_home {
-  font-family: 'Expletus Sans';
+  font-family: "Expletus Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 96px;
@@ -52,7 +52,7 @@ header {
 }
 
 .surname_home {
-  font-family: 'Teko';
+  font-family: "Teko";
   font-style: normal;
   font-weight: 400;
   font-size: 96px;
@@ -76,7 +76,7 @@ header {
 
   p {
     margin-top: 19px;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -89,7 +89,7 @@ header {
   span {
     margin-top: 48px;
     width: 214px;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -111,7 +111,7 @@ header {
 }
 
 .catalog_home {
-  height: 1534px;
+  margin-bottom: 50px;
 }
 
 .lozung {
@@ -156,7 +156,7 @@ header {
 
   .pos {
     margin-top: -30px;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -173,22 +173,22 @@ header {
   width: 100%;
   min-height: 23.75rem;
   margin-top: 100px;
-  background-image: url('@img/terms.png');
+  background-image: url("@img/terms.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .product {
-  &_card{
+  &_card {
     max-width: 270px;
     min-height: 435px;
 
-    &__img{
+    &__img {
       height: 21.25rem;
       background: $color-neutral-text;
     }
 
-    &:hover{
+    &:hover {
       background-color: rgba(255, 255, 255, 0.13);
     }
   }
@@ -212,11 +212,11 @@ header {
   background-color: $color-white;
 }
 
-.slide{
+.slide {
   min-height: 27.188rem;
 }
 
-.margin{
+.margin {
   margin-top: 100px; // for mergins after navbar
 }
 
@@ -224,116 +224,132 @@ header {
   .product {
     &__block {
       margin-top: 100px;
-    }}
-  .img{
-    &_hero{
+    }
+  }
+  .img {
+    &_hero {
       max-width: 27rem;
     }
   }
+}
+
+.grid{
+  margin-left: 60px;
+  height: 920px !important;
+}
+.grid_btn{
+  margin-left: 60px;
 
 }
 
-.img_reg46{
-background-image: url('@img/rec46.png');
-background-repeat: no-repeat;
-background-size: cover;
-width: 603px !important;
-height: 285px;
-}
-.img_reg47{
-background-image: url('@img/rec47.png');
-background-repeat: no-repeat;
-background-size: cover;
-width: 275px !important;
-height: 285px;
-top:0 !important;
-}
-.img_reg49{
-  background-image: url('@img/rec49.png');
-background-repeat: no-repeat;
-background-size: cover;
-
-width: 275px !important;
-height: 285px;
-
+.grid-item{
+  border: 2px solid black;
+  &:hover{
+    border: 2px solid #ff4b1b;
+  }
 }
 
-.img_reg50{
-  background-image: url('@img/rec50.png');
-background-repeat: no-repeat;
-background-size: cover;
-
-height: 285px;
-width: 603px !important;
-  left: 275px!important;
-    top: 285px!important;
+.img_reg46 {
+  background-image: url("@img/rec46.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 603px !important;
+  height: 285px;
 }
-.img_reg51{
-  background-image: url('@img/rec51.png');
-background-repeat: no-repeat;
-background-size: cover;
-
-height: 570px !important;
-width: 275px !important;
-left: 878px!important;
-top: 0px!important;
+.img_reg47 {
+  background-image: url("@img/rec47.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 285px !important;
+  height: 285px;
+  top: 0 !important;
 }
-.img_reg52{
-  background-image: url('@img/rec52.png');
-background-repeat: no-repeat;
-background-size: cover;
-
-height: 285px;
-width: 603px !important;
-    left: 0px!important;
-    top: 570px!important;
+.img_reg49 {
+  background-image: url("@img/rec49.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 285px !important;
+  height: 285px;
 }
 
-.img_reg53{
-  background-image: url('@img/rec53.png');
-background-repeat: no-repeat;
-background-size: cover;
+.img_reg50 {
+  background-image: url("@img/rec50.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-height: 285px;
-width: 275px !important;
-    left: 603px!important;
-    top: 570px!important;
+  height: 285px;
+  width: 603px !important;
+  left: 285px !important;
+  top: 285px !important;
 }
-.img_reg54{
-  background-image: url('@img/rec54.png');
-background-repeat: no-repeat;
-background-size: cover;
+.img_reg51 {
+  background-image: url("@img/rec53.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 570px !important;
+  width: 285px !important;
+  left: 888px !important;
+  top: 0px !important;
+}
+.img_reg52 {
+  background-image: url("@img/rec52.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-height: 285px;
-width: 275px !important;
-left: 878px!important;
-    top: 570px!important;
+  height: 285px;
+  width: 603px !important;
+  left: 0px !important;
+  top: 570px !important;
 }
 
+.img_reg53 {
+  background-image: url("@img/rec51.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-.offcanvas{
-  background-color: rgba($color: rgb(255, 255, 255), $alpha: .08);
+  height: 285px;
+  width: 285px !important;
+  left: 603px !important;
+  top: 570px !important;
+}
+.img_reg54 {
+  background-image: url("@img/rec54.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 285px;
+  width: 285px !important;
+  left: 888px !important;
+  top: 570px !important;
+}
+
+.offcanvas {
+  background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.08);
   backdrop-filter: blur(15px);
   color: $color-white;
 }
 
-.offcanvas-backdrop.show{
-opacity: 0;
+.offcanvas-backdrop.show {
+  opacity: 0;
 }
 
-.grid-item { width: 200px; }
-.grid-item--width2 { width: 400px; }
 
 // scrollbar
 
 ::-webkit-scrollbar {
   width: 7px;
-  background-color: $color-primary-dark; }
+  background-color: $color-primary-dark;
+}
 
 ::-webkit-scrollbar-thumb {
   border-radius: 7px;
-  background-color: $color-primary-base; }
+  background-color: $color-primary-base;
+}
 
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-  background-color: $color-primary-dark; }
+  background-color: $color-primary-dark;
+}

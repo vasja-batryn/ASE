@@ -136,6 +136,10 @@ p {
   border: 2px solid #ffffff;
 }
 
+.title__alt_2 {
+  min-width: 44.563rem;
+}
+
 .title_price {
   font-size: 1.25rem;
   color: #AAADB1;
@@ -222,7 +226,7 @@ p {
 
 .navbar {
   min-height: 6.25rem;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.253);
 }
 
 .navbar .nav-link {
@@ -400,7 +404,7 @@ header {
 }
 
 .catalog_home {
-  height: 1534px;
+  margin-bottom: 50px;
 }
 
 .lozung {
@@ -537,6 +541,23 @@ header {
   margin-top: 100px;
 }
 
+.grid {
+  margin-left: 60px;
+  height: 920px !important;
+}
+
+.grid_btn {
+  margin-left: 60px;
+}
+
+.grid-item {
+  border: 2px solid black;
+}
+
+.grid-item:hover {
+  border: 2px solid #ff4b1b;
+}
+
 .no-webp .img_reg46{
   background-image: url("../img/rec46.png"); }
 
@@ -553,7 +574,8 @@ header {
 .img_reg47 {
   background-repeat: no-repeat;
   background-size: cover;
-  width: 275px !important;
+  background-position: center;
+  width: 285px !important;
   height: 285px;
   top: 0 !important;
 }
@@ -564,7 +586,8 @@ header {
 .img_reg49 {
   background-repeat: no-repeat;
   background-size: cover;
-  width: 275px !important;
+  background-position: center;
+  width: 285px !important;
   height: 285px;
 }
 
@@ -576,19 +599,20 @@ header {
   background-size: cover;
   height: 285px;
   width: 603px !important;
-  left: 275px !important;
+  left: 285px !important;
   top: 285px !important;
 }
 
 .no-webp .img_reg51{
-  background-image: url("../img/rec51.png"); }
+  background-image: url("../img/rec53.png"); }
 
 .img_reg51 {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 570px !important;
-  width: 275px !important;
-  left: 878px !important;
+  width: 285px !important;
+  left: 888px !important;
   top: 0px !important;
 }
 
@@ -605,13 +629,13 @@ header {
 }
 
 .no-webp .img_reg53{
-  background-image: url("../img/rec53.png"); }
+  background-image: url("../img/rec51.png"); }
 
 .img_reg53 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 285px;
-  width: 275px !important;
+  width: 285px !important;
   left: 603px !important;
   top: 570px !important;
 }
@@ -623,8 +647,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 285px;
-  width: 275px !important;
-  left: 878px !important;
+  width: 285px !important;
+  left: 888px !important;
   top: 570px !important;
 }
 
@@ -637,14 +661,6 @@ header {
 
 .offcanvas-backdrop.show {
   opacity: 0;
-}
-
-.grid-item {
-  width: 200px;
-}
-
-.grid-item--width2 {
-  width: 400px;
 }
 
 ::-webkit-scrollbar {
@@ -748,10 +764,10 @@ header {
 
 .webp .img_reg50{ background-image: url(../img/rec50.webp); }
 
-.webp .img_reg51{ background-image: url(../img/rec51.webp); }
+.webp .img_reg51{ background-image: url(../img/rec53.webp); }
 
 .webp .img_reg52{ background-image: url(../img/rec52.webp); }
 
-.webp .img_reg53{ background-image: url(../img/rec53.webp); }
+.webp .img_reg53{ background-image: url(../img/rec51.webp); }
 
 .webp .img_reg54{ background-image: url(../img/rec54.webp); }
