@@ -10,3 +10,28 @@
         background-color: $color-white;
     }
 }
+
+.order{
+    &_bg{
+        background: $color-neutral-bg;
+        &__size1{
+            min-height: 43rem;
+        }
+        &__size2{
+            height: 23rem;
+            overflow-y: scroll;
+            
+        }
+        &__size3{
+            min-height: 12.5rem;
+        }
+    }
+    &_input{
+        width: 23rem;
+        padding: 0.3rem;
+        color: $color-white;
+        background: transparent;
+        border-bottom: 1px solid $color-white;
+        text-align: center;
+    }
+}

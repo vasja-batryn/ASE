@@ -98,10 +98,9 @@ p {
     padding: 1.563rem 1.125rem;
     text-align: center;
     border: 2px solid $color-white;
-  }
-
-  &__alt_2 {
-    min-width: 44.563rem;
+    &_2{
+      min-width: 44.563rem;
+    }
   }
 
   &_price {

@@ -153,7 +153,7 @@ p {
 
 .title_price {
   font-size: 1.25rem;
-  color: #AAADB1;
+  color: #696566;
 }
 
 .title_big {
@@ -197,7 +197,7 @@ p {
 
 .small_font__price {
   font-size: 0.75rem;
-  color: #AAADB1;
+  color: #696566;
   font-weight: 600;
 }
 
@@ -210,6 +210,32 @@ p {
 .catalog_pic {
   height: 13.5rem;
   background-color: #ffffff;
+}
+
+.order_bg {
+  background: #696566;
+}
+
+.order_bg__size1 {
+  min-height: 43rem;
+}
+
+.order_bg__size2 {
+  height: 23rem;
+  overflow-y: scroll;
+}
+
+.order_bg__size3 {
+  min-height: 12.5rem;
+}
+
+.order_input {
+  width: 23rem;
+  padding: 0.3rem;
+  color: #ffffff;
+  background: transparent;
+  border-bottom: 1px solid #ffffff;
+  text-align: center;
 }
 
 .about__img {
