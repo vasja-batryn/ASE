@@ -261,6 +261,100 @@ p {
   border-radius: 50%;
 }
 
+.no-webp .img_reg1{
+  background-image: url("@img/1au.jpg"); }
+
+.img_reg1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 603px !important;
+  height: 285px;
+}
+
+.no-webp .img_reg2{
+  background-image: url("@img/2au.jpg"); }
+
+.img_reg2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 285px !important;
+  height: 285px;
+  top: 0 !important;
+}
+
+.no-webp .img_reg3{
+  background-image: url("@img/3au.jpg"); }
+
+.img_reg3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 285px !important;
+  height: 285px;
+}
+
+.no-webp .img_reg4{
+  background-image: url("@img/4au.jpg"); }
+
+.img_reg4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 285px;
+  width: 603px !important;
+  left: 285px !important;
+  top: 285px !important;
+}
+
+.no-webp .img_reg5{
+  background-image: url("@img/5au.jpg"); }
+
+.img_reg5 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 570px !important;
+  width: 285px !important;
+  left: 888px !important;
+  top: 0px !important;
+}
+
+.no-webp .img_reg6{
+  background-image: url("@img/6au.jpg.png"); }
+
+.img_reg6 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 285px;
+  width: 603px !important;
+  left: 0px !important;
+  top: 570px !important;
+}
+
+.no-webp .img_reg7{
+  background-image: url("@img/7au.jpg"); }
+
+.img_reg7 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 285px;
+  width: 285px !important;
+  left: 603px !important;
+  top: 570px !important;
+}
+
+.no-webp .img_reg8{
+  background-image: url("@img/8au.jpg"); }
+
+.img_reg8 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 285px;
+  width: 285px !important;
+  left: 888px !important;
+  top: 570px !important;
+}
+
 .navbar {
   min-height: 6.25rem;
   background: rgba(0, 0, 0, 0.253);
@@ -797,6 +891,22 @@ header {
     max-width: 27rem;
   }
 }
+
+.webp .img_reg1{ background-image: url(@img/1au.webp); }
+
+.webp .img_reg2{ background-image: url(@img/2au.webp); }
+
+.webp .img_reg3{ background-image: url(@img/3au.webp); }
+
+.webp .img_reg4{ background-image: url(@img/4au.webp); }
+
+.webp .img_reg5{ background-image: url(@img/5au.webp); }
+
+.webp .img_reg6{ background-image: url(@img/6au.webp.webp); }
+
+.webp .img_reg7{ background-image: url(@img/7au.webp); }
+
+.webp .img_reg8{ background-image: url(@img/8au.webp); }
 
 .webp header{ background-image: url(../img/home_bg.webp); }
 
