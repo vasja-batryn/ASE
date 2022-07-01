@@ -261,6 +261,12 @@ p {
   border-radius: 50%;
 }
 
+.photo_align {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
 .img_reg1 {
   background-repeat: no-repeat;
   background-position: center !important;
