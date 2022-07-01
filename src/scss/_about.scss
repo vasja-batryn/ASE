@@ -30,7 +30,7 @@
 .img_reg2 {
   // background-image: url("@img/2au.jpg");
   background-repeat: no-repeat !important;
-  background-size: cover;
+  background-size: cover ;
   background-position: center;
   width: 285px !important;
   height: 285px;
@@ -47,8 +47,8 @@
 
 .img_reg4 {
   // background-image: url("@img/4au.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 
   height: 285px;
   width: 603px !important;
@@ -57,9 +57,9 @@
 }
 .img_reg5 {
   // background-image: url("@img/5au.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
   height: 570px !important;
   width: 285px !important;
   left: 888px !important;
@@ -67,9 +67,9 @@
 }
 .img_reg6 {
   // background-image: url("@img/6au.jpg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
   height: 285px;
   width: 603px !important;
   left: 0px !important;
@@ -78,9 +78,9 @@
 
 .img_reg7 {
   // background-image: url("@img/7au.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
   height: 285px;
   width: 285px !important;
   left: 603px !important;
@@ -88,9 +88,9 @@
 }
 .img_reg8 {
   // background-image: url("@img/8au.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
   height: 285px;
   width: 285px !important;
   left: 888px !important;
