@@ -31,6 +31,9 @@ header {
   line-height: 112px;
   letter-spacing: 0.05em;
   color: $color-white;
+  transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 1.3s ease 0s;
   &_title {
     height: 100vh;
     font-size: 3rem;
@@ -41,6 +44,11 @@ header {
   }
 }
 
+.home._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
 .name_home {
   font-family: "Expletus Sans";
   font-style: normal;
@@ -49,6 +57,7 @@ header {
   line-height: 129px;
   letter-spacing: 0.05em;
   color: #ffffff;
+
 }
 
 .surname_home {
@@ -67,6 +76,7 @@ header {
   align-items: center;
   background: rgba(0, 0, 0, 0.28);
 }
+
 
 .cards {
   display: flex;
@@ -99,7 +109,35 @@ header {
     color: #ffffff;
   }
 }
+.card_1{
 
+transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+
+}
+.card_2{
+transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 1.3s ease 0s;
+
+}
+.card_3{
+transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 1.5s ease 0s;
+
+}
+.card_4{
+transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 2.0s ease 0s;
+
+}
+.cards._active{
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
 .cirkule {
   display: flex;
   width: 120px;
@@ -112,6 +150,12 @@ header {
 
 .catalog_home {
   margin-bottom: 50px;
+  transform: scale(0);
+  transition: all 0.8s ease 0s;
+}
+
+.catalog_home._active {
+  transform: scale(1);
 }
 
 .lozung {
@@ -119,7 +163,7 @@ header {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   background: rgba(0, 0, 0, 0.28);
   p {
     font-weight: 500;
@@ -233,18 +277,17 @@ header {
   }
 }
 
-.grid{
+.grid {
   margin-left: 60px;
   height: 920px !important;
 }
-.grid_btn{
+.grid_btn {
   margin-left: 60px;
-
 }
 
-.grid-item{
+.grid-item {
   border: 2px solid black;
-  &:hover{
+  &:hover {
     border: 2px solid #ff4b1b;
   }
 }
@@ -331,20 +374,18 @@ header {
   background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.08);
   backdrop-filter: blur(15px);
   color: $color-white;
-  &_card{
+  &_card {
     width: 24.875rem;
     min-height: 8.375rem;
     margin-bottom: 1rem;
     border-top: 1px solid $color-white;
     border-bottom: 1px solid $color-white;
-
   }
 }
 
 .offcanvas-backdrop.show {
   opacity: 0;
 }
-
 
 // scrollbar
 
