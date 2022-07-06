@@ -1,11 +1,11 @@
-@import "params";
-@import "mixins";
-@import "buttons";
-@import "typography";
-@import "catalog";
-@import "about";
-@import "navbar";
-@import "footer";
+@import 'params';
+@import 'mixins';
+@import 'buttons';
+@import 'typography';
+@import 'catalog';
+@import 'about';
+@import 'navbar';
+@import 'footer';
 
 html {
   scroll-behavior: smooth;
@@ -13,18 +13,18 @@ html {
 
 body {
   background-color: $color-primary-dark;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
   height: 100vh;
-  background-image: url("@img/home_bg.jpg");
+  background-image: url('@img/home_bg.jpg');
   @include background-pic;
   background-attachment: fixed;
 }
 
 .home {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 100;
   font-size: 96px;
@@ -50,18 +50,17 @@ header {
 }
 
 .name_home {
-  font-family: "Expletus Sans";
+  font-family: 'Expletus Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 96px;
   line-height: 129px;
   letter-spacing: 0.05em;
   color: #ffffff;
-
 }
 
 .surname_home {
-  font-family: "Teko";
+  font-family: 'Teko';
   font-style: normal;
   font-weight: 400;
   font-size: 96px;
@@ -77,7 +76,6 @@ header {
   background: rgba(0, 0, 0, 0.28);
 }
 
-
 .cards {
   display: flex;
   justify-content: center;
@@ -86,7 +84,7 @@ header {
 
   p {
     margin-top: 19px;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -99,7 +97,7 @@ header {
   span {
     margin-top: 48px;
     width: 214px;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -109,32 +107,27 @@ header {
     color: #ffffff;
   }
 }
-.card_1{
-
-transform: translate(0px, 120%);
+.card_1 {
+  transform: translate(0px, 120%);
   opacity: 0;
   transition: all 0.8s ease 0s;
-
 }
-.card_2{
-transform: translate(0px, 120%);
+.card_2 {
+  transform: translate(0px, 120%);
   opacity: 0;
   transition: all 1.3s ease 0s;
-
 }
-.card_3{
-transform: translate(0px, 120%);
+.card_3 {
+  transform: translate(0px, 120%);
   opacity: 0;
   transition: all 1.5s ease 0s;
-
 }
-.card_4{
-transform: translate(0px, 120%);
+.card_4 {
+  transform: translate(0px, 120%);
   opacity: 0;
-  transition: all 2.0s ease 0s;
-
+  transition: all 2s ease 0s;
 }
-.cards._active{
+.cards._active {
   transform: translate(0px, 0px);
   opacity: 1;
 }
@@ -163,7 +156,7 @@ transform: translate(0px, 120%);
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   background: rgba(0, 0, 0, 0.28);
   p {
     font-weight: 500;
@@ -200,7 +193,7 @@ transform: translate(0px, 120%);
 
   .pos {
     margin-top: -30px;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -208,7 +201,6 @@ transform: translate(0px, 120%);
     display: flex;
     align-items: center;
     text-align: center;
-
     color: #ffffff;
   }
 }
@@ -217,7 +209,7 @@ transform: translate(0px, 120%);
   width: 100%;
   min-height: 23.75rem;
   margin-top: 100px;
-  background-image: url("@img/terms.png");
+  background-image: url('@img/terms.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -287,20 +279,28 @@ transform: translate(0px, 120%);
 
 .grid-item {
   border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.603);
+  &_text{
+    opacity: 0;
+    transition: all  .5s ease-out;
+    &:hover{
+      opacity: 1;
+    }
+  }
   &:hover {
     border: 2px solid #ff4b1b;
   }
 }
 
 .img_reg46 {
-  background-image: url("@img/rec46.png");
+  background-image: url('@img/rec46.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 603px !important;
   height: 285px;
 }
 .img_reg47 {
-  background-image: url("@img/rec47.png");
+  background-image: url('@img/rec47.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -309,7 +309,7 @@ transform: translate(0px, 120%);
   top: 0 !important;
 }
 .img_reg49 {
-  background-image: url("@img/rec49.png");
+  background-image: url('@img/rec49.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -318,7 +318,7 @@ transform: translate(0px, 120%);
 }
 
 .img_reg50 {
-  background-image: url("@img/rec50.png");
+  background-image: url('@img/rec50.png');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -328,7 +328,7 @@ transform: translate(0px, 120%);
   top: 285px !important;
 }
 .img_reg51 {
-  background-image: url("@img/rec53.png");
+  background-image: url('@img/rec53.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -338,7 +338,7 @@ transform: translate(0px, 120%);
   top: 0px !important;
 }
 .img_reg52 {
-  background-image: url("@img/rec52.png");
+  background-image: url('@img/rec52.png');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -349,7 +349,7 @@ transform: translate(0px, 120%);
 }
 
 .img_reg53 {
-  background-image: url("@img/rec51.png");
+  background-image: url('@img/rec51.png');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -359,7 +359,7 @@ transform: translate(0px, 120%);
   top: 570px !important;
 }
 .img_reg54 {
-  background-image: url("@img/rec54.png");
+  background-image: url('@img/rec54.png');
   background-repeat: no-repeat;
   background-size: cover;
 

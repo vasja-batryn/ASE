@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css?_v=20220703112006" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.min.css?_v=20220703112006">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css?_v=20220703112006">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css?_v=20220706192648" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220706192648">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css?_v=20220706192648">
     <title>Каталог</title>
 </head>
   <body>
@@ -210,7 +210,7 @@
       <h5 class="upper base-font mb-4">Контакти</h5>
       <form action="">
         <input type="email" placeholder="example.1234@gmail.com" />
-        <button class="btn btn_base me-1">
+        <button class="btn btn_base me-1 my-1 border-0">
           <img src="img/arrowR.svg" alt="" />
         </button>
       </form>
@@ -233,56 +233,97 @@
       </div>
     </div>
   </div>
-  <p class="text-center mt-auto align-text-bottom small_font">
+  <p class="text-center mt-auto align-text-bottom base-font">
     Права захищені © 2022 ASE |
   </p>
 </footer>
 
 <!-- offcanvas -->
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div
+  class="offcanvas offcanvas-end"
+  tabindex="-1"
+  id="offcanvasRight"
+  aria-labelledby="offcanvasRightLabel"
+>
   <div class="offcanvas-header">
-    <button type="button" data-bs-dismiss="offcanvas" class="btn border-0" aria-label="Close">
+    <button
+      type="button"
+      data-bs-dismiss="offcanvas"
+      class="btn border-0"
+      aria-label="Close"
+    >
       <img src="img/arrowL.svg" alt="" />
     </button>
   </div>
   <div class="offcanvas-body d-flex flex-column align-items-center">
     <div class="offcanvas_card row py-1 px-0">
       <div class="col-4 my-auto ps-0">
-        <picture><source srcset="img/gloves.webp" type="image/webp"><img style="width: 109px; height:102px;" src="img/gloves.png" alt="Боксерські перчатки"></picture>
+        <img
+          style="width: 109px; height: 102px"
+          src="img/gloves.png"
+          alt="Боксерські перчатки"
+        />
       </div>
       <div class="col-7 d-flex flex-column px-0">
         <div class="my-auto d-flex flex-column">
-          <a class="upper base-font base-font__white_text base-font__bold nav-link" href="product.html">Боксерські перчатки</a>
+          <a
+            class="upper base-font base-font__white_text base-font__bold nav-link"
+            href="product.html"
+            >Боксерські перчатки</a
+          >
           <span class="title base-font__alt align-bottom pt-4">₴ 600</span>
         </div>
       </div>
       <div class="col-1">
-        <button type="button" class="btn-close btn-close-white my-2" aria-label="Close"></button>
+        <button
+          type="button"
+          class="btn-close btn-close-white my-2"
+          aria-label="Close"
+        ></button>
       </div>
     </div>
 
     <div class="offcanvas_card row py-1 px-0">
       <div class="col-4 my-auto ps-0">
         <a href="product.html">
-          <picture><source srcset="img/gloves.webp" type="image/webp"><img style="width: 109px; height:102px;" src="img/gloves.png" alt="Боксерські перчатки"></picture>
+          <img
+            style="width: 109px; height: 102px"
+            src="img/gloves.png"
+            alt="Боксерські перчатки"
+          />
         </a>
       </div>
       <div class="col-7 d-flex flex-column px-0">
         <div class="my-auto d-flex flex-column">
-          <a class="upper base-font base-font__white_text base-font__bold nav-link" href="product.html">Боксерські перчатки</a>
+          <a
+            class="upper base-font base-font__white_text base-font__bold nav-link"
+            href="product.html"
+            >Боксерські перчатки</a
+          >
           <span class="title base-font__alt align-bottom pt-4">₴ 600</span>
         </div>
       </div>
       <div class="col-1">
-        <button type="button" class="btn-close btn-close-white my-2" aria-label="Close"></button>
+        <button
+          type="button"
+          class="btn-close btn-close-white my-2"
+          aria-label="Close"
+        ></button>
       </div>
     </div>
-    <button class="btn btn_size btn_base my-3 align-middle pt-2" onclick="location.href='order.html'"type="button">Оформити замовлення</button>
+    <button
+      class="btn btn_size btn_base my-3 align-middle pt-2"
+      onclick="location.href='order.html'"
+      type="button"
+    >
+      Оформити замовлення
+    </button>
   </div>
 </div>
 
-    <script src="js/app.min.js?_v=20220703112006"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js?_v=20220703112006" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js?_v=20220703112006"></script>
+
+    <script src="js/app.min.js?_v=20220706192648"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js?_v=20220706192648" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js?_v=20220706192648"></script>
   </body>
 </html>

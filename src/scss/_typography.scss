@@ -139,6 +139,10 @@ p {
     font-weight: $font-weight-title;
   }
 
+  &__thin{
+    font-weight: $font-weight-light;
+  }
+
   &__alt {
     color: $color-primary-base; //orange
   }

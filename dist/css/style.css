@@ -187,6 +187,10 @@ p {
   font-weight: 600;
 }
 
+.base-font__thin {
+  font-weight: 300;
+}
+
 .base-font__alt {
   color: #FF4B1B;
 }
@@ -741,6 +745,18 @@ header {
 
 .grid-item {
   border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+.grid-item_text {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.grid-item_text:hover {
+  opacity: 1;
 }
 
 .grid-item:hover {
